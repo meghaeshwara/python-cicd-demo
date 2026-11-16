@@ -13,7 +13,7 @@ jobs:                       #jobs is used to define the jobs inside your workflo
 
     steps:                  #defines the individual tasks that the job should perform.
 
-    - name: Checkout Code     #code is in git hub repo, runner is dufferent machine It downloads/checks out your repository code into the runner's working directory.
+    - name: Checkout Code     #code is in git hub repo, runner is different machine It downloads/checks out your repository code into the runner's working directory.
       uses: actions/checkout@v4   
 
     - name: Setup Python
